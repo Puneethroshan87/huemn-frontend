@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+}
+.EXPLORE , .Follow {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.explore-h5 , .logo , .follow-h5{
+    font-size: 2vw;
+}
+.EXPLORE , .Follow a{
+    font-size: 1.5vw;
+    /* color: gray; */
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 15vw;
+}
+.email{
+    height: 3.5vw;
+    border-radius:1vw ;
+    border: 1px solid gray ;
+}
+.signup-bt{
+    background-color: rgba(60, 9, 202, 0.879);
+    color: white;
+    width: 10vw;
+    height: 3vw;
+    border: none;
+    border-radius: 10vw;
+    cursor: pointer;
+}
+.signup-bt:hover{
+    background-color: rgba(137, 43, 226, 0.382);
+    color: black;
+}
+.signup p{
+    font-size: 1.3vw;
+}

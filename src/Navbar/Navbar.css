@@ -1,0 +1,92 @@
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+background-color: white;
+color: black;
+    position: relative;
+    z-index: 11;
+    position: fixed;
+}
+.left{
+    font-size: 1.5vw;
+    /* color: rgb(241, 231, 231); */
+    font-weight: 500;
+    float: left;
+}
+.nav-right{
+    display: flex;
+    gap: 2vw;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+.nav-right li{
+list-style: none;
+text-decoration: none;
+    font-size: 1.5vw;
+    color: rgb(250, 242, 242);
+font-weight: 500;
+}
+.link-home{
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+    font-weight: 500;
+    font-size: 1.5vw;
+margin-left: 2vw;
+}
+.link-right{
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+.nav-right li:hover{
+    background-color: rgba(60, 138, 240, 0.393);
+    border-radius: 2vw;
+    width: 8vw;
+    height: 2.5vw;
+    border: 1px solid gray;
+}
+
+
+
+
+
+/* Media queries for mobile view */
+/* @media (max-width: 426px) { */
+    /* .navbar { */
+        /* flex-direction: column; Stack items vertically */
+        /* align-items: flex-start; Align items to the left */
+        /* background-color: rgba(137, 43, 226, 0.382); Change background for mobile */
+    /* } */
+
+    /* .nav-right { */
+        /* display: none; Hide the nav-right items initially */
+    /* } */
+
+    /* .menuIcon { */
+        /* display: block; Show the hamburger icon */
+        /* cursor: pointer; Pointer cursor for hover effect */
+    /* } */
+
+    /* .nav-active { */
+        /* display: flex; Show nav items when active */
+        /* flex-direction: column; Stack nav items vertically */
+        /* width: 100%; Take full width */
+    /* } */
+/* } */
+
+/* .hamburger { */
+    /* display: none; Hide the hamburger by default */
+    /* font-size: 2vw; Adjust size */
+    /* color: black; Icon color */
+/* } */
+
+/* Add styles for the icon when items are shown */
+/* .nav-right.show { */
+    /* display: flex; Show nav-right items */
+/* } */
+  /* * */
