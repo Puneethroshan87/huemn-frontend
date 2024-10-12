@@ -72,9 +72,6 @@ color: aliceblue;
  .basicServices{
     width: 25vw;
  }
- .intermediateServices{
-
- }
  .advancedServices{
     width: 25vw;
  }
@@ -201,3 +198,180 @@ cursor: pointer;
  justify-content: space-around; 
  margin-top: 2vw;
 }
+
+
+@media screen and (max-width: 426px) {
+    .keyboard-img {
+        width: 180%;
+    }
+    .divOne-h2 {
+        bottom: 105vw;
+        font-size: 5vw; 
+        position: relative;
+        width: 95vw;
+        margin-left: 35vw;
+        background-color: rgba(196, 255, 253, 0.352) ;
+        border: none;
+        border-radius: 2vw;
+        padding: 2vw;
+    }
+    .divOne-Bt{
+        width: 40vw;
+        bottom: 100vw;
+        height: 10vw;
+        font-size: 4vw;
+        margin-left: 65vw;
+        background-color: white;
+    }
+    .rfm-marquee-container{
+        top: -110vw;
+        width: 280%;
+        margin-left: 10vw;
+        font-size: 4vw;
+        
+    }
+    .featured {
+        margin-top: 120vw;
+        font-size: 3.5vw;
+        /* margin-left: 20vw; */
+        width: 180%;
+    }
+    .product-name {
+        margin-top: 5vw;
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .mouseImg {
+        width: 120vw;
+    }
+    .mouse-h3 , .mouse-p{
+        font-size: 6vw;
+    }
+    .services {
+        margin-top: 8vw;
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .basicServices, .advancedServices {
+        width: 120vw;
+    }
+    .basic-h3, .advanced-h3 , .intermediateServices-h3{
+        font-size: 6vw;
+    }
+    .basic-p, .advanced-p , .intermediateServices-p{
+        font-size: 6vw;
+    }
+    .bookAppointment{
+        width: 140vw;
+    height: 110vw;
+    }
+    .plan-one, .plan-two, .plan-three {
+        margin-top: 2vw;
+        border: 1px solid gray;
+        border-radius: 1vw;
+        width: 130vw;
+        margin-left: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .your-info, .confirmation {
+       width: 140vw;
+    }
+    .powerdBy {
+        margin-top: 3vw;
+        margin-left: 85vw;
+        width: 20vw;
+    }
+    .bookAppointment-h3{
+        font-size: 6vw;
+    }
+    .plan-flex-h4 {
+        font-size: 4.5vw;
+    }
+    .plan-flex-p {
+       font-size: 3.5vw;
+    }
+    .plan-bt{
+        width: 20vw;
+        height: 7vw;
+    }
+    .powerdby-p{
+     font-size: 5vw;
+    }
+    .powerdBy h5 {
+        font-size: 3vw;
+    }
+    .about {
+        display: flex;
+        gap: 2vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 180vw;
+    }
+    .about-des {
+        width: 140vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .aboutImg {
+
+        width: 120vw;
+    }
+    .abt-h2 {
+        font-size: 8vw;
+        width: 80vw;
+    }
+    .abt-p {
+        font-size: 4vw;
+        width: 85vw;
+        color: gray;
+    }
+    .abt-bt{
+        width: 27vw;
+        height: 8vw;
+    }
+    .rfm-marquee-container {
+        width: 100vw;
+        top: -90vw;
+        margin-left: 40vw;
+        font-size: 6vw;
+    }
+    .social-bt{
+        width: 20vw;
+        height: 8vw;
+        margin-left: 80vw;
+    }
+    .icons {
+        width: 180vw;
+        display: flex;
+        align-items: center;
+        margin-top: 2vw;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+ 
+}
+
+

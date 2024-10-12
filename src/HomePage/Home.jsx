@@ -33,7 +33,7 @@ const Home = () => {
           </Link>
           <Marquee className="marquee">
             <h1>
-              SPR SPR SPR <span>SPR</span> SPR SPR
+              SPR SPR SPR <span>SPR</span> SPR   SPR SPR SPR   
             </h1>
           </Marquee>
         </div>
@@ -44,8 +44,8 @@ const Home = () => {
           <div className="product-name">
             <div className="product-mouse">
               <img src={mouse} alt="mouse" className="mouseImg" />
-              <h3>MOUSE</h3>
-              <p>$25</p>
+              <h3 className="mouse-h3">MOUSE</h3>
+              <p className="mouse-p">$25</p>
             </div>
             <div className="product-keyboard">
               <img
@@ -53,8 +53,8 @@ const Home = () => {
                 alt="Keyboard"
                 className="keyboardImg"
               />
-              <h3>KEYBOARD</h3>
-              <p>$25</p>
+              <h3 className="mouse-h3">KEYBOARD</h3>
+              <p className="mouse-p">$25</p>
             </div>
           </div>
 
@@ -74,8 +74,8 @@ const Home = () => {
                 alt="intermediateServices"
                 className="intermediateServices"
               />
-              <h3>INTERMEDIATE SERVICES</h3>
-              <p>$149</p>
+              <h3 className="intermediateServices-h3">INTERMEDIATE SERVICES</h3>
+              <p className="intermediateServices-p">$149</p>
             </div>
             <div className="advanced-services">
               <img
@@ -91,11 +91,11 @@ const Home = () => {
 
         {/* book an appointment */}
         <div className="bookAppointment">
-          <h3> <span><LooksOneRoundedIcon /></span> Choose Appointment</h3>
+          <h3 className="bookAppointment-h3"> <span><LooksOneRoundedIcon /></span> Choose Appointment</h3>
           <div className="plan-one">
             <div className="plan-flex">
-              <h4>Free Consultation</h4>
-              <p>30 minutes</p>
+              <h4 className="plan-flex-h4">Free Consultation</h4>
+              <p className="plan-flex-p">30 minutes</p>
             </div>
             <div>
               <button className="plan-bt">Book</button>
@@ -103,8 +103,8 @@ const Home = () => {
           </div>
           <div className="plan-two">
             <div className="plan-flex">
-              <h4>Basic Services</h4>
-              <p>1 hour @ $99.00</p>
+              <h4 className="plan-flex-h4">Basic Services</h4>
+              <p className="plan-flex-p">1 hour @ $99.00</p>
             </div>
             <div>
               <button className="plan-bt">Book</button>
@@ -112,8 +112,8 @@ const Home = () => {
           </div>
           <div className="plan-three">
             <div className="plan-flex">
-              <h4>Advanced Services</h4>
-              <p>1 hour @ $199.00</p>
+              <h4 className="plan-flex-h4">Advanced Services</h4>
+              <p className="plan-flex-p">1 hour @ $199.00</p>
             </div>
             <div>
               <button className="plan-bt">Book</button>
@@ -129,8 +129,8 @@ const Home = () => {
 
         </div>
         <div className="powerdBy">
-          <p>Powered by</p>
-          <h5>acuity: scheduling</h5>
+          <p className="powerdby-p">Powered by</p>
+          <h5 className="powerdby-h5">acuity: scheduling</h5>
         </div>
 
         {/* About */}

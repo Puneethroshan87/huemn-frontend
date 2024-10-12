@@ -40,3 +40,47 @@
     /* justify-content: space-around; */
     /* text-align: initial; */
 }
+
+
+@media screen and (max-width: 426px) {
+    .bookNow {
+        margin-top: 7vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+        /* background-color: rgba(99, 98, 98, 0.726); */
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 180vw;
+    }
+    .book-text {
+        /* border: 1px solid gray; */
+        /* margin-left: 3vw; */
+        width: 180vw;
+    }
+    .book-h1 {
+        font-size: 8vw;
+    }
+    .book-p {
+        font-size: 6vw;
+    }
+    .book-form {
+        width: 140vw;
+        margin-right: 0vw;
+    }
+    .bookAppointment-booknow {
+    width: 140vw;
+    height: 100vw;
+    }
+    .your-info-booknow, .confirmation-booknow {
+        width: 140vw;
+    }
+    .powerdBy {
+        margin-top: 3vw;
+        margin-left: 60vw;
+        width: 24vw;
+    }
+
+}

@@ -46,3 +46,57 @@
 .signup p{
     font-size: 1.3vw;
 }
+
+
+@media screen and (max-width: 426px){
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        /* margin-top: 2vw; */
+        background-color: rgba(99, 98, 98, 0.726);
+        flex-direction: column;
+        width: 180vw;
+    }
+    .explore-h5, .logo, .follow-h5 {
+        font-size: 8vw;
+    }
+    .EXPLORE, .Follow {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .EXPLORE, .Follow a {
+        font-size: 6.5vw;
+        /* color: gray; */
+    }
+    .signup {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        width: 15vw;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .signup p {
+        margin-top: 4vw;
+        font-size: 3.3vw;
+        width: 40vw;
+    }
+    .email {
+        height: 5.5vw;
+    }
+    .signup-bt {
+    width: 15vw;
+    height: 7vw;
+    margin-bottom: 2vw;
+    }
+    
+}

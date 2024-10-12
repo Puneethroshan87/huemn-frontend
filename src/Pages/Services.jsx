@@ -30,7 +30,8 @@ const Services = () => {
           />
           <h3 className="basic-h3">BASIC SERVICES</h3>
           <p className="basic-p">$99</p>
-          <p>
+          <p  className="basic-des">
+
             Describe important details like price, value, length of service, and
             why it’s unique. Or use these sections to showcase different key
             values of your products or services.
@@ -45,9 +46,9 @@ const Services = () => {
             alt="intermediateServices"
             className="intermediateServices"
           />
-          <h3>INTERMEDIATE SERVICES</h3>
-          <p>$149</p>
-          <p>
+          <h3 className="basic-h3">INTERMEDIATE SERVICES</h3>
+          <p className="basic-p">$149</p>
+          <p className="basic-des">
             Describe important details like price, value, length of service, and
             why it’s unique. Or use these sections to showcase different key
             values of your products or services.
@@ -64,7 +65,7 @@ const Services = () => {
           />
           <h3 className="advanced-h3">ADVANCED SERVICES</h3>
           <p className="advanced-p">$199</p>
-          <p>
+          <p className="basic-des">
             Describe important details like price, value, length of service, and
             why it’s unique. Or use these sections to showcase different key
             values of your products or services.

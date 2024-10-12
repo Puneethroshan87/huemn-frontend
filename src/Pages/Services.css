@@ -87,3 +87,52 @@ color: white;
     background-color: white;
     color: black;
 }
+
+
+@media  screen and  (max-width: 426px){
+    .services {
+        width: 180vw;
+    }
+    .service-one {
+        align-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 180vw;
+    }
+    .service-one-h1 {
+        font-size: 11vw;
+    }
+    .service-one-p {
+        font-size: 4vw;
+        width: 50vw;
+    }
+    .service-two {
+        display: flex;
+        gap: 5vw;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 8vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 180vw;
+    }
+    .basic-des{
+        width: 130vw;
+        font-size: 5vw;
+    }
+    .ser-bt {
+        width: 30vw;
+        height: 13vw;
+    }
+    .book-free-p {
+        font-size: 4vw;
+    }
+    .book-free {
+        left: 90vw;
+        width: 112vw;
+    }
+}
