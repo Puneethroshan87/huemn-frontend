@@ -1,0 +1,42 @@
+.bookNow{
+    margin-top: 7vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15vw;
+    /* background-color: rgba(99, 98, 98, 0.726); */
+}
+.book-text{
+    /* border: 1px solid gray; */
+    margin-left:3vw ;
+}
+
+.book-h1{
+    font-size: 3.5vw;
+}
+.book-p{
+    font-size: 1.5vw;
+}
+.book-form{
+    width: 85vw;
+    margin-right: 2vw;
+}
+.bookAppointment-booknow {
+    /* margin-top: 5vw; */
+    border: 1px solid gray;
+    border-radius: 1vw;
+    width: 50vw;
+    height: 32vw;
+    /* margin-left: 23vw; */
+    /* padding: 2vw; */
+    background-color: white;
+}
+.your-info-booknow, .confirmation-booknow {
+    margin-top: 2vw;
+    border: 1px solid gray;
+    border-radius: 1vw;
+    width: 50vw;
+    /* margin-left: 23vw; */
+    /* justify-content: space-around; */
+    /* text-align: initial; */
+}

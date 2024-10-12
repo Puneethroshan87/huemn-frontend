@@ -1,0 +1,16 @@
+.about__container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.about{
+    display: flex;
+    gap: 2vw;
+}
+.about-h1{
+    font-size: 3.5vw;
+}
+.about-p{
+    font-size: 1.5vw;
+    width: 30vw;
+}

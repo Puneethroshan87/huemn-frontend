@@ -4,7 +4,8 @@
     align-items: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;
-    margin-top: 4vw;
+    /* margin-top: 2vw; */
+    background-color: rgba(99, 98, 98, 0.726);
 }
 .EXPLORE , .Follow {
     display: flex;
