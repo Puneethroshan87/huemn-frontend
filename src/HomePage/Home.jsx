@@ -31,11 +31,11 @@ const Home = () => {
           <Link to={"/About"} className="divOne-linkbt">
             <button className="divOne-Bt">Learn More</button>
           </Link>
-          <Marquee className="marquee">
+          {/* <Marquee className="marquee">
             <h1>
               SPR SPR SPR <span>SPR</span> SPR   SPR SPR SPR   
             </h1>
-          </Marquee>
+          </Marquee> */}
         </div>
 
         {/* Featured Products Section */}

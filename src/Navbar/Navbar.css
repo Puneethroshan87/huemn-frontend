@@ -1,4 +1,4 @@
-
+/* 
 
 .navbar{
     display: flex;
@@ -16,9 +16,9 @@ color: black;
     right: 0;
 }
 .left{
-    font-size: 1.5vw;
-    /* color: rgb(241, 231, 231); */
-    font-weight: 500;
+    font-size: 1.5vw; 
+    color: rgb(241, 231, 231);
+     font-weight: 500;
     float: left;
 }
 .nav-right{
@@ -58,43 +58,147 @@ margin-left: 2vw;
 .navbar{
     width: 180%;
 }
+.link-home {
+    font-size: 8vw;
+}
+.css-1umw9bq-MuiSvgIcon-root {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    fill: currentColor;
+    font-size: 2.5rem;
+}
+.right.open {
+display: block;
 
 }
 
 
+} */
 
-/* Media queries for mobile view */
-/* @media (max-width: 426px) { */
-    /* .navbar { */
-        /* flex-direction: column; Stack items vertically */
-        /* align-items: flex-start; Align items to the left */
-        /* background-color: rgba(137, 43, 226, 0.382); Change background for mobile */
-    /* } */
 
-    /* .nav-right { */
-        /* display: none; Hide the nav-right items initially */
-    /* } */
 
-    /* .menuIcon { */
-        /* display: block; Show the hamburger icon */
-        /* cursor: pointer; Pointer cursor for hover effect */
-    /* } */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    color: black;
+    position: relative;
+    z-index: 11;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
-    /* .nav-active { */
-        /* display: flex; Show nav items when active */
-        /* flex-direction: column; Stack nav items vertically */
-        /* width: 100%; Take full width */
-    /* } */
-/* } */
+.left {
+    font-size: 1.5vw; 
+    color: rgb(241, 231, 231);
+    font-weight: 500;
+    float: left;
+}
 
-/* .hamburger { */
-    /* display: none; Hide the hamburger by default */
-    /* font-size: 2vw; Adjust size */
-    /* color: black; Icon color */
-/* } */
+.nav-right {
+    display: flex;
+    gap: 2vw;
+    text-decoration: none;
+    margin-right: 2vw;
+}
 
-/* Add styles for the icon when items are shown */
-/* .nav-right.show { */
-    /* display: flex; Show nav-right items */
-/* } */
-  /* * */
+.nav-right li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: rgb(250, 242, 242);
+    font-weight: 500;
+}
+
+.link-home {
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+}
+
+.link-right {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+.nav-right li:hover {
+    background-color: rgba(60, 138, 240, 0.393);
+    border-radius: 2vw;
+    width: 8vw;
+    height: 2.5vw;
+    border: 1px solid gray;
+}
+.menuIcon {
+display: none;
+}
+
+/* Add this to make the navbar responsive */
+@media screen and (max-width: 426px) {
+    .navbar {
+        width: 100%;
+    }
+    .link-home {
+        font-size: 8vw;
+    }
+    .menuIcon {
+        position: absolute;
+        top: 0;
+        right: 5vw;
+        z-index: 1;
+        display: block;
+        font-size: 8vw;
+    }
+    .right {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        /* background-color: #fffffff6; */
+        backdrop-filter: blur(8px);
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 100%;
+        height: 90vh;
+        overflow-y: auto;
+
+    }
+    .right.open {
+        display: block;
+       
+    }
+    .nav-right {
+        flex-direction: column;
+    }
+    .nav-right li {
+        margin-bottom: 10px;
+    }
+    .link-right {
+        font-size: 8vw;
+    }
+    .nav-right li:hover {
+        background-color: rgba(60, 138, 240, 0.393);
+        border-radius: 2vw;
+        width: 40vw;
+        height: 10vw;
+        border: 1px solid gray;
+        margin-left: 70vw;
+    }
+}

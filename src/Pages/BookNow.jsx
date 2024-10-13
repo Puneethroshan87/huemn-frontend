@@ -54,7 +54,7 @@ const BookNow = () => {
           <h3> <span>< Looks3RoundedIcon /></span> Confirmation</h3>
 
         </div>
-        <div className="powerdBy">
+        <div className="powerdBy-b">
           <p>Powered by</p>
           <h5>acuity: scheduling</h5>
         </div>
