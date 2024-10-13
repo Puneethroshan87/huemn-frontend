@@ -153,9 +153,10 @@ display: none;
 @media screen and (max-width: 426px) {
     .navbar {
         width: 100%;
+       
     }
     .link-home {
-        font-size: 8vw;
+        font-size: 10vw;
     }
     .menuIcon {
         position: absolute;
